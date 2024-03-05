@@ -1,0 +1,212 @@
+<html><head><title>Module1Activity3A</title>
+<script>console.log('HEAD')
+
+</script>
+<!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+<style>
+#tab1 {
+  width: 1280;
+}
+#tab2 {
+  width: 1024;
+}
+#tabd {
+  vertical-align:left;
+  width: 10%; 
+}
+.image1 {
+  align-items: LEFT;
+}
+#tabd1 {
+  vertical-align: center;
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+}
+#tabd2 {
+  vertical-align: right;
+  width: 10%;
+}
+.image2 {
+  align-items: RIGHT;
+}
+#tabd3 {
+  width: 10%;
+}
+#image3 {
+  align-items: left;
+}
+#image4 {
+  width: 1024;
+  height: 2px;
+}
+#tabd4 {
+  width: 90%;
+  column-span: 2;
+}
+#tabd5 {
+  vertical-align: top;
+  align-items: left;
+  width: 25%;
+  font-size: small;
+}
+#tabd6 {
+  vertical-align: top;
+  align-items: left;
+  width: 35%;
+  font-size: small;
+}
+#tabd7 {
+  vertical-align: top;
+  text-align: right;
+  width: 40%;
+}
+#tabd8 {
+  vertical-align: top;
+  column-span: 1;
+}
+#tabd9 {
+  align-items: left;
+  vertical-align: top;
+  column-span: 2;
+}
+#tabd10 {
+  align-items: left;
+  width: 33%;
+}
+#tabd11 {
+  vertical-align: center;
+  width: 34%;
+  text-align: center;
+}
+#tabd12 {
+  text-align: right;
+  width: 33%;
+}
+</style>
+</head>
+    <!-- NEW: This example outputs when different DOM events happen -->
+    <!-- SLEEPY -->
+<body onloadstart="console.log('ONLOADSTART')" onload='console.log("ONLOAD")'>
+<div id="fb-root"></div>
+
+<!--div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="./images/asulogo.jpg" ALIGN=LEFT />
+    </div>
+    <div class="col-md-8">
+      Kevin A. Gary, Ph.D.
+    </div>
+    <div class="col-md-2">
+      <img src="./images/KevinAGarySmall.jpg" ALIGN=LEFT />
+    </div>
+  </div-->
+<table id="tab1">
+<tr><td id="tabd"><img src="./images/asulogo.jpg" class="image1"/></td>
+<td id="tabd1">Kevin A. Gary, Ph.D.</td>
+<td id="tabd2"><img src="./images/asulogo.jpg" class="image2"/></td></tr>
+<tr><td id="tabd3"><img src="./images/KevinAGarySmall.jpg" id="image3"/></td>
+<td id="tabd4" colspan="2">
+Welcome to my homepage! I have been on the faculty at ASU since 2004, tenured in 2010. 
+I believe in creating challenging learning experiences for my students that prepares 
+them for industry, the profession, and life! I do this through 
+hands-on, project-based teaching in the 
+<a href="https://softwareenterprise.asu.edu">Software Enterprise</a>, use-inspired 
+applied research (particularly in e-Learning and healthcare), and applying 
+industry best practices in the classroom. My primary area is 
+"Software Engineering", but my interests vary from enterprise computing to mHealth to
+agile and open source software engineering.
+</td></tr> 
+</table>
+</div>
+    <!-- SLEEPY -->
+    <script>console.log('Finished table 1')</script>
+<br/>
+<table id="tab1">
+  <tr>
+    <td id="tabd5">
+      <h3><em><strong>Contact Info:</strong></em><br/></h3>
+    <P>
+      Associate Professor<br/>
+	<a href="http://cidse.engineering.asu.edu">The School of Computing, Informatics, and Decision Systems Engineering</a><br/>
+        <a href="http://engineering.asu.edu/">The Ira A. Fulton Schools of Engineering</a><br/>
+        <a href="http://poly.asu.edu">Software Engineering Program Faculty, Polytechnic Campus</a><br/>
+        7171 Sonoran Arroyo Mall<br/>
+	Peralta 230C <br/>
+        Mesa Arizona 85212<br/>
+        Phone: <a href="tel:1-480-727-1373">(480)727-1373</a><br/>
+	Email:<a href="mailto:kgary@asu.edu">kgary@asu.edu</a><br/>
+	Web: <a href="http://www.public.asu.edu/~kgary">homepage</a>, <a href="http://drgarysblog.blogspot.com">blog</a> <br/>
+<br/>
+	Twitter: <a href="https://twitter.com/drkevingary" class="twitter-follow-button" data-show-count="false">Follow @drkevingary</a>
+<br/> 
+<br/>
+    </P>
+    </td>
+    <td id="tabd6">
+<h3>
+     <em><strong>Blog entries:</strong></em><br/>
+</h3>
+<p>
+<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fdrgarysblog.blogspot.com%2Ffeeds%2Fposts%2Fdefault&amp;chan=title&amp;num=3&amp;desc=150&amp;date=y&amp;targ=y&amp;pc=y&amp;html=p"  type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fdrgarysblog.blogspot.com%2Ffeeds%2Fposts%2Fdefault&amp;chan=title&amp;num=3&amp;desc=200&amp;date=y&amp;targ=y&amp;pc=y&amp;html=y">View RSS feed</a>
+</noscript>
+</p>
+    </td>
+    <td id="tabd7">
+<h3>
+     <em><strong>My tweets:</strong></em><br/>
+</h3>
+<a class="twitter-timeline"  href="https://twitter.com/drkevingary"  data-widget-id="390204299604541440">Tweets by @drkevingary</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<br/>
+        <!-- SLEEPY -->
+<script>console.log('Middle table 2')</script>
+</td>
+  </tr>
+  <tr>
+    <td id="tabd8" colspan="1">
+      <h3><em><strong>Links:</strong></em><br/></h3>
+  	<li><a href="./docs/CVfull.pdf">Current Vitae (including pubs)</a></li>
+        <li><a href="./docs/ASUGradResearch100212.pdf">Graduate seminar presentation of research projects (2012)</a></li>
+	<li><a href="http://www.igstk.org">IGSTK</a></li>
+	<li><a href="http://softwareenterprise.asu.edu">The Software Enterprise</a></li>
+	<li><a href="http://atic.asu.edu">The Advanced Technology Innovation Center (ATIC)</a>
+      </ul>
+<br/>
+<a href="http://www.nerdtests.com/ft_nq.php">
+<img src="http://www.nerdtests.com/images/ft/nq/21991e3bef.gif" alt="I am nerdier than 98% of all people. Are you a nerd? Click here to take the Nerd Test, get geeky images and jokes, and talk on the nerd forum!"></a>
+    </td>
+    <td id="tabd9" colspan="2">
+      <h3><em><strong>Selected Publications (see <a href="./docs/CVfull.pdf">CV</a> for full list):</strong></em><br/></h3>
+      <p>
+      <ol>
+	<li>Gary, K., Kojcev, R., and Cleary, K. “A Systems Integration Architecture for NOTE Surgery”, Proceedings of the 16th Conference on Software Engineering and Applications (SEA 2012). Las Vegas, TX, November 2012.</li>
+	<li>Gary, K., Kocjev, R., and Cleary, K. “Observations on the Evolving Maturity of Software and Systems Architecture Supporting Surgical Procedures”, Workshop on Infrastructure, Tools, and Technologies for System of Systems of Medical Devices (SoSMD 2011). Kansas, November 2011.</li>
+	<li>Gary, K., Kokoori, S., Muffih, B., Enquobahrie, A., Cheng, P., Yaniv, Z., and Cleary, K. “Agile Methods for Safety-Critical Open Source Software”, Software: Practice and Experience, April 2011.</li>
+  	<li>Gary, K. The Software Enterprise: Practicing Best Practices in Software Engineering Education, <i>The International Journal of Engineering Education</i> Special Issue on Trends in Software Engineering Education, Volume 24, Number 4, July 2008, pp. 705-716.</li>
+	<li>Gary, K., The Software Enterprise: Preparing Industry-ready Software Engineers, in <i>Software Engineering: Effective Teaching and Learning Approaches</i>, Ellis, H., Demurjian, S., and Naveda, J.F., (eds.), Idea Group Publishing. October 2008.</li>
+	<li>Gary, K. and Koehnemann, H. Component-based Deployment for Web Applications: Methods and Issues, in <i>Software Engineering for Modern Web Applications</i>, Brandon, D. (ed.), Idea Group Publishing. 2008.</li>
+	<li>Gary, K., Blake, B., Ibanez, L., Gobbi, D., Aylward, S., and Cleary, K. IGSTK: An Open Source
+Software Platform for Image-Guided Surgery,  <i>IEEE Computer Special Issue on software engineering and application of software-based medical devices and device systems</i>, April 2006.</li>
+      </ol>
+    </p>
+    </td>
+  </tr>
+</table>
+    <!-- SLEEPY -->
+<script>console.log('Finished table 2')</script>
+<img id="image4" src="./images/asurib.gif"/>
+<br/>
+<table id="tab2">
+<tr><td id="tabd10"><img src="./images/asulogo.jpg" class="image1"/></td>
+<td id="tabd11"><p>Copyright &copy; 2013 Kevin A. Gary</p></td>
+<td id="tabd12"><img src="./images/asulogo.jpg" class="image2"/></td></tr>
+</table>
+    <script>console.log('Finished table 3')</script>
+</body>
+</html>
